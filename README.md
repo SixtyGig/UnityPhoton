@@ -1,2 +1,2 @@
 # UnityPhoton
- A Project I built to learn Unity Photon integration for Oculus Quest 2
+ I'm currently putting together a little multiplayer experience to help me practice using Unity Photon Pun2 in a Multi-Quest2 (VR) environment.
