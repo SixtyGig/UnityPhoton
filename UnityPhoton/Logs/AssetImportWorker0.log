@@ -1,0 +1,495 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32671 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/runx3/Documents/GitHub/UnityPhoton/UnityPhoton
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61502
+Successfully changed project path to: C:/Users/runx3/Documents/GitHub/UnityPhoton/UnityPhoton
+C:/Users/runx3/Documents/GitHub/UnityPhoton/UnityPhoton
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 77.33 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/runx3/Documents/GitHub/UnityPhoton/UnityPhoton/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   
+    VRAM:     24348 MB
+    Driver:   30.0.15.1179
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002266 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.47 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.507 seconds
+Domain Reload Profiling:
+	ReloadAssembly (507ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.17 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.69.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3655.
+Total: 3.006800 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.613300 ms  DeleteObjects: 0.062400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets
+  artifactKey: Guid(8591cbc0b9d59a148b9b6eb2561402a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets using Guid(8591cbc0b9d59a148b9b6eb2561402a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e24283ec8507b49216bf03e6c0181a') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.425168 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcd3ff63fcd09b3be425163d5c9845') in 0.034147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38b5808f862010cc71bf7941031987c') in 0.018718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c7e2c2901237432c76581133fb1f1') in 0.008704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670d601190d6af6e8acbc886cfeb4a85') in 0.013084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e039f96452fb154a4fabce180b317f') in 0.008898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0/Starter Assets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65125089cd0625cc6bab119de3db7aad') in 0.008662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 593.818383 seconds.
+  path: Assets/XR
+  artifactKey: Guid(7fef446afc3f43f45a19fa978cf16044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(7fef446afc3f43f45a19fa978cf16044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58fb1b07b897eb13648398c246f3777') in 0.007103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050649 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(c8e9d15346965f740800f3fa0496333e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(c8e9d15346965f740800f3fa0496333e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6900089f29642f660e95ee309b4d7a5') in 0.013393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.221930 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(c5e51b5ac94eeb34e9135fb3edc29af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(c5e51b5ac94eeb34e9135fb3edc29af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1d5f326c3818258a451506c273dc54') in 0.005759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059640 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(7d8f269404858ed49bfff2391d950082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(7d8f269404858ed49bfff2391d950082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131ad80412973f67efda8b7714927321') in 0.006085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.765046 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(ba2d3c85e1f68c540817c265dced8d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(ba2d3c85e1f68c540817c265dced8d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8fbb83980e9ed99cba1cc6ad9e72fd') in 0.005786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052264 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(e4d0a34085b73c34c8ccf7c25c073d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(e4d0a34085b73c34c8ccf7c25c073d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c7c5205927100dbd8e1a1e8c9b9c0e') in 0.007537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.361032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(5fc67c9517ecec74e80147a6c5ba9008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(5fc67c9517ecec74e80147a6c5ba9008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283038354e3251408fc42cf8d069030d') in 0.005962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.670739 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0
+  artifactKey: Guid(f8f1989dc45011f4cb03162bf6e38583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0 using Guid(f8f1989dc45011f4cb03162bf6e38583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a7b21fa1f155a16c3a89c09e8bf183') in 0.006566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.378342 seconds.
+  path: Assets/Oculus/Platform
+  artifactKey: Guid(f7c040dfafbf6f445b4c5a905817b62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform using Guid(f7c040dfafbf6f445b4c5a905817b62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220095e1c3b24030a80f2fd4a8226a2b') in 0.005996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076562 seconds.
+  path: Assets/Oculus/Platform/Oculus.Platform.asmdef
+  artifactKey: Guid(709dac43c5baa084e8cdcb829e9fde31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform/Oculus.Platform.asmdef using Guid(709dac43c5baa084e8cdcb829e9fde31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aebd93044b121f42f2ddf1bd629c612') in 0.007344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.342411 seconds.
+  path: Assets/Oculus/Platform/Samples
+  artifactKey: Guid(0d69fab378cf2bc43b934a7869e4d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform/Samples using Guid(0d69fab378cf2bc43b934a7869e4d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000b88fc046b90704e73baa4033c0dc9') in 0.005909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.946358 seconds.
+  path: Assets/Oculus/Platform/Samples/VrHoops
+  artifactKey: Guid(99e052b981df6064b9eb1fd9b7a7a139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform/Samples/VrHoops using Guid(99e052b981df6064b9eb1fd9b7a7a139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1136286a61f04a3708da6bb16a1fd2b') in 0.005639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097982 seconds.
+  path: Assets/Oculus/Platform/Samples/VrHoops/Bouncey.physicMaterial
+  artifactKey: Guid(b9c664160cb7a724d9777a6ad6222a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform/Samples/VrHoops/Bouncey.physicMaterial using Guid(b9c664160cb7a724d9777a6ad6222a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67170307f63bc88e396cdc203789c1fa') in 0.007458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.447292 seconds.
+  path: Assets/Oculus/Platform/Samples/VrHoops/Main.unity
+  artifactKey: Guid(8b67239c8d8693441abb62a2ac48f571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform/Samples/VrHoops/Main.unity using Guid(8b67239c8d8693441abb62a2ac48f571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5746a47539251f4250e20f5a4e13dde0') in 0.006449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.218024 seconds.
+  path: Assets/Oculus/Platform/Samples/SimplePlatformSample
+  artifactKey: Guid(d4456c9adf88d234185bd5299a24db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform/Samples/SimplePlatformSample using Guid(d4456c9adf88d234185bd5299a24db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93242776ce668026bf1d58bb173e8bda') in 0.006492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.945471 seconds.
+  path: Assets/Oculus/Platform/Samples/SimplePlatformSample/MainScene.unity
+  artifactKey: Guid(318d73ef645634c49839069272d9e4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Platform/Samples/SimplePlatformSample/MainScene.unity using Guid(318d73ef645634c49839069272d9e4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e165478cd998bd42bec52621a644bde3') in 0.006324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.700337 seconds.
+  path: Assets/IRONHEAD Games
+  artifactKey: Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games using Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee81071b7a7b622fcee362a53da892') in 0.006223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.129282 seconds.
+  path: Assets/IRONHEAD Games/Scenes
+  artifactKey: Guid(d2f161c53dbdbbd46997eba0a0da121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes using Guid(d2f161c53dbdbbd46997eba0a0da121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2fe368c8cfe160ce439c4393bb1f23') in 0.005650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.126593 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
+  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1ce65347c7fb548e3a2c6a8dcbf49f') in 0.006915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.956417 seconds.
+  path: Assets/Oculus/VR/Oculus.VR.asmdef
+  artifactKey: Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Oculus.VR.asmdef using Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec58c27960f27b1608995e5d8e32e06b') in 0.005560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 493.804246 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(06137752af5284643bb345cdcedf3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(06137752af5284643bb345cdcedf3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58b253cb8276ca83af049e44fa93615') in 0.002320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 372.912109 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608dec6bfd1cc0c5d0e6927597846352') in 0.069410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af88a8e550141f60bf3f04a23bc083de') in 0.015795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51aac5ce0747df51acb2a2af5ade047') in 0.016430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c07c8e10a60c82a6fe72aea1ea0ed33') in 0.015963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430102fb5f3aa9c1ee8e447c722a572c') in 0.018747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.714807 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatar Selection Prefabs/AvatarSelectionPlatform.prefab
+  artifactKey: Guid(43be1c43d5fc9f448a974c20312e9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatar Selection Prefabs/AvatarSelectionPlatform.prefab using Guid(43be1c43d5fc9f448a974c20312e9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50c0a23fa32f369232173937b70dafb') in 0.170342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613861 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/Cup.prefab
+  artifactKey: Guid(b787c76c5e9f27d49b0358e843b9edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/Cup.prefab using Guid(b787c76c5e9f27d49b0358e843b9edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac6b935b4a1b64e9af3a3af45f8e652') in 0.011708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfGun.prefab
+  artifactKey: Guid(1cd7de6eee15b15468784544d15ae3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfGun.prefab using Guid(1cd7de6eee15b15468784544d15ae3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084cfe0d95c739ee0c0d8eb93ceb0684') in 0.014199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBullet.prefab
+  artifactKey: Guid(db71efb6302ebf543a885b47777d6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBullet.prefab using Guid(db71efb6302ebf543a885b47777d6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd7c4d8cdbfec237beb81c17109a3bb') in 0.016788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBoard.prefab
+  artifactKey: Guid(6498a99bb2c56a34fb748cb1d00b2d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBoard.prefab using Guid(6498a99bb2c56a34fb748cb1d00b2d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18053a35b473c0494b479ab65a656457') in 0.025811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.486621 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/DirectionalLightOutdoor.prefab
+  artifactKey: Guid(9dd2afe01b9cdfe49a0e2c890a33ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/DirectionalLightOutdoor.prefab using Guid(9dd2afe01b9cdfe49a0e2c890a33ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb53aa4290b45d93889bdea05e4080e2') in 0.008161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Land.prefab
+  artifactKey: Guid(e21e90a23dfae9a4e91b9a62ae6e07ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Land.prefab using Guid(e21e90a23dfae9a4e91b9a62ae6e07ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d631a2464c91057942711c04778e006') in 0.014745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Log.prefab
+  artifactKey: Guid(630c0ce5de5ace9449e989865387e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Log.prefab using Guid(630c0ce5de5ace9449e989865387e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b5702075f0b52ade58e2d356fa4f28') in 0.016748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockD.prefab
+  artifactKey: Guid(03ce5d657843d954098ced2a644a7896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockD.prefab using Guid(03ce5d657843d954098ced2a644a7896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31550e6341e4409c7b9bab316f49488e') in 0.011693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/FirePlace.prefab
+  artifactKey: Guid(67ba5864b6ec20441a8243de97b959c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/FirePlace.prefab using Guid(67ba5864b6ec20441a8243de97b959c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c19dd21d2b30519918ef9f56bfa6b5') in 0.051532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockB.prefab
+  artifactKey: Guid(3bbb469b329229d4884a85a688f3245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockB.prefab using Guid(3bbb469b329229d4884a85a688f3245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594615bf9a7725f796d4778e3996a153') in 0.014836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockA.prefab
+  artifactKey: Guid(0b69cc580cea5c14eb641eb56b4b1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockA.prefab using Guid(0b69cc580cea5c14eb641eb56b4b1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611dd453642fb309fc9ad29c71b1d920') in 0.011262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/LightFire.prefab
+  artifactKey: Guid(ea28c52b3443b02468ed05c15aa4e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/LightFire.prefab using Guid(ea28c52b3443b02468ed05c15aa4e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2790f2414a39c6e22b13be67025602') in 0.008727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/OutdoorAssets.prefab
+  artifactKey: Guid(54f9e7ba0d3793d46afaaa76597e301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/OutdoorAssets.prefab using Guid(54f9e7ba0d3793d46afaaa76597e301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ddf735e14c29e161e3bf7979c69407') in 0.024491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeA.prefab
+  artifactKey: Guid(f413ab72a4014854fb22ecf2fe4f951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeA.prefab using Guid(f413ab72a4014854fb22ecf2fe4f951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841b58ebf5db20f1b1a7f76a4d6c6cd3') in 0.014484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeB.prefab
+  artifactKey: Guid(5550d0fbee9b2b64e8ef612f5b07b2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeB.prefab using Guid(5550d0fbee9b2b64e8ef612f5b07b2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cbd55be34ff16fbe7ae1d605848fe8') in 0.015055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockC.prefab
+  artifactKey: Guid(3b0768bb91f064443aecc25f796e3bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockC.prefab using Guid(3b0768bb91f064443aecc25f796e3bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97bb00ea79740140b03c018f491ae8') in 0.011491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeC.prefab
+  artifactKey: Guid(f0662d655d41ee74383aa11d28d35927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeC.prefab using Guid(f0662d655d41ee74383aa11d28d35927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ef6f020ec25c068692bc27a63c6528') in 0.016987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/ParticleFire.prefab
+  artifactKey: Guid(441b13c644322264da1e1505061e27ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/ParticleFire.prefab using Guid(441b13c644322264da1e1505061e27ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303d286539e3540c49327835a73975f4') in 0.013935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.572480 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/School Prefabs/BaasketBoard.prefab
+  artifactKey: Guid(90103a6c9bd00e8468d54c5b66e061a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/School Prefabs/BaasketBoard.prefab using Guid(90103a6c9bd00e8468d54c5b66e061a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938f8957137c6efdedfa6f7b546cca1b') in 0.011660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/School Prefabs/TennisBall.prefab
+  artifactKey: Guid(9c5622240039f924b8638f9ee8c4996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/School Prefabs/TennisBall.prefab using Guid(9c5622240039f924b8638f9ee8c4996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55471dca8adc8bceac9929b1bf505b3') in 0.020652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/School Prefabs/PilatesBall.prefab
+  artifactKey: Guid(0564c3f8b58f99240af9d4b6604b4d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/School Prefabs/PilatesBall.prefab using Guid(0564c3f8b58f99240af9d4b6604b4d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16dfdde27e400ebe9e3f293207ec056') in 0.015709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/School Prefabs/TennisRacket.prefab
+  artifactKey: Guid(b12f6c1fa1bc5f14eb161451e99a7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/School Prefabs/TennisRacket.prefab using Guid(b12f6c1fa1bc5f14eb161451e99a7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e471fd50d02de70974e15ebcf7e81cd9') in 0.011849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/School Prefabs/BasketBall.prefab
+  artifactKey: Guid(0a695799684e78c4cb53fcd82431fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/School Prefabs/BasketBall.prefab using Guid(0a695799684e78c4cb53fcd82431fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a04b338afe30ea0ad50015bdb5a701a') in 0.014710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/School Prefabs/TableTennis.prefab
+  artifactKey: Guid(9812035d235f4084f98103f0ac2d3fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/School Prefabs/TableTennis.prefab using Guid(9812035d235f4084f98103f0ac2d3fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056a25407e345494c14f2d25ca6e117e') in 0.017488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.566963 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Teleportation/TeleportReticle.prefab
+  artifactKey: Guid(ba7331f932a688a4f8e39cea819590de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Teleportation/TeleportReticle.prefab using Guid(ba7331f932a688a4f8e39cea819590de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a499794794ec84e42b3467d13f8e034d') in 0.013981 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
